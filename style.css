@@ -1,0 +1,53 @@
+body{
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a :visited{
+    color: blue;
+}
+
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar li{
+    float: left;
+}
+
+.nav-bar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover:not(.active){
+    background-color: #111111;
+}
+
+#One-piece-img{
+    width: 500px;
+    height: 450px;
+    border-style: solid;
+    border-color: red;
+}
+
+#Video-game-img{
+    width: 500px;
+    height: 450px;
+    border-style: solid;
+    border-color: blue;
+}
